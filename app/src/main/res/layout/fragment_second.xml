@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondFragment">
+
+    <EditText
+        android:id="@+id/etNameFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="edit name" />
+
+    <EditText
+        android:id="@+id/etAgeFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="edit age" />
+    <EditText
+        android:id="@+id/etAddressFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="edit address" />
+    <Button
+        android:id="@+id/btnUpdateFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="update"/>
+    <Button
+        android:id="@+id/btnAddFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="add"/>
+    <Button
+        android:id="@+id/btneleteFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="delete"/>
+
+
+
+
+</LinearLayout>
